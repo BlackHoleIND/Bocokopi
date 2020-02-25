@@ -382,8 +382,8 @@ a:hover{
     padding: 15px 35px;
 }
 
-/* Phone Sytle */
-@media (max-width: 992px) {
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
     .carousel-caption p {
         display: none;
     }
@@ -402,4 +402,25 @@ a:hover{
         font-style: italic;
         margin-bottom: 5vw;
     }
-}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption a.btn {
+        background-color: #FFC700;
+        font-weight: bold;
+        font-size: 2vw;
+        padding: 0.5vw 1.25vw;
+    }
+
+    .menus p {
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 2vw;
+        font-style: italic;
+        margin-bottom: 5vw;
+    }
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
